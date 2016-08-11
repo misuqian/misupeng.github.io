@@ -32,7 +32,7 @@
 }
 
 .content {
-  padding: 60px;
+  padding: 3.75rem 60px 60px 60px;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -173,6 +173,7 @@ canvas {
 .projects-menu {
   font-size: 0;
   height: 100%;
+  width: 100%;
   > li {
     display: inline-block;
     width: calc(100%/3);
@@ -245,8 +246,8 @@ canvas {
         content: "";
         position: absolute;
         top: 0;
-        border-top: 1px solid rgba($white, 0.3);
-        border-bottom: 1px solid rgba($white, 0.3);
+        border-top: 2px solid rgba($white, 0.5);
+        border-bottom: 2px solid rgba($white, 0.5);
         display: block;
         height: 100%;
         width: 100%;
@@ -263,8 +264,8 @@ canvas {
       }
       &:before {
         content: "";
-        border-right: 1px solid rgba($white, 0.3);
-        border-left: 1px solid rgba($white, 0.3);
+        border-right: 2px solid rgba($white, 0.5);
+        border-left: 2px solid rgba($white, 0.5);
         display: block;
         height: 100%;
         -webkit-transform: scale(1, 0);
