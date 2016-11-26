@@ -1,18 +1,10 @@
 ---
 layout: home
 ---
-# 程序员的自述
+# About Theme
 
-我叫彭芊
+This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
 
-一个热爱用程序去创造,期望能改变部分人生活的男孩
+To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
 
-大学初学编程,一发不可收拾
-
-仅对编程语言和开发技术特别花心
-
-喜爱独立地去设计开发产品,擅长iOS和Unity
-
-最后差点忘说了:
-
-欢迎来到我的[个人主页](http://www.pengqian.win)
+If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
