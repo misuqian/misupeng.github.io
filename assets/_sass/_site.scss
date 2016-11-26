@@ -32,7 +32,7 @@
 }
 
 .content {
-  padding: 5.75rem 60px 60px 60px;
+  padding: 60px;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -173,7 +173,6 @@ canvas {
 .projects-menu {
   font-size: 0;
   height: 100%;
-  width: 100%;
   > li {
     display: inline-block;
     width: calc(100%/3);
@@ -228,16 +227,16 @@ canvas {
         -ms-transform: translate(-50%, -50%);
         -o-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-        font-size: 1.875rem;
+        font-size: 30px;
         color: $white;
-        padding-right: 1rem;
+        padding-right: 10px;
         white-space: nowrap;
         text-align: center;
         strong {
           color: rgba($white, 0.7);
         }
         em {
-          font-size: 1.250;
+          font-size: 20px;
           line-height: 33px;
           color: darken($white, 40%);
         }
@@ -246,8 +245,8 @@ canvas {
         content: "";
         position: absolute;
         top: 0;
-        border-top: 2px solid rgba($white, 0.5);
-        border-bottom: 2px solid rgba($white, 0.5);
+        border-top: 1px solid rgba($white, 0.3);
+        border-bottom: 1px solid rgba($white, 0.3);
         display: block;
         height: 100%;
         width: 100%;
@@ -264,8 +263,8 @@ canvas {
       }
       &:before {
         content: "";
-        border-right: 2px solid rgba($white, 0.5);
-        border-left: 2px solid rgba($white, 0.5);
+        border-right: 1px solid rgba($white, 0.3);
+        border-left: 1px solid rgba($white, 0.3);
         display: block;
         height: 100%;
         -webkit-transform: scale(1, 0);
@@ -782,7 +781,7 @@ canvas {
     height: 50% !important;
   }
   .content {
-    padding: 1.25rem 20px 20px 20px 
+    padding: 20px
   }
 }
 
