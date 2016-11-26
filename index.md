@@ -2,7 +2,6 @@
 layout: home
 ---
 # 程序员的自述
-# About Theme
 
 我叫彭芊
 
