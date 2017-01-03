@@ -1,0 +1,13 @@
+<section id="one" class="tiles">
+    {% for item in site.data.projects %}
+      <article>
+              <span class="image">
+                      <img src="{{ item.image }}" alt="" />
+              </span>
+              <header class="major">
+                      <h3><a href="{{ item.url | relative_url }}" class="link">{{ item.title }}</a></h3>
+                      <p>{{ item.description }}</p>
+              </header>
+      </article>
+    {% endfor %}
+</section>
