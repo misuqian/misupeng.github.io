@@ -11,13 +11,16 @@ tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 6
 
 # Social settings
-# Social settings
-weibo_url: http://weibo.com/u/3789094183?is_all=1
-steam_url: http://steamcommunity.com/id/misuqian
-facebook_url: 
-github_url: http://github.com/misuqian
-googleplus_url: 
-linkedin_url: 
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: https://gitlab.com/u/andrewbanchich
+googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+instagram_url: https://instagram.com
+linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/andrewbanchich
 
 # Build settings
 markdown: kramdown
