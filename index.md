@@ -1,10 +1,18 @@
 ---
 layout: home
-title: Home
-landing-title: 'Hi, my name is Forty'
-description: null
-image: null
-author: null
 ---
+#(●´ω｀●)φ
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+我叫彭芊
+
+一个热爱用程序去创造,期望能改变部分人生活的男孩
+
+大学初学编程,一发不可收拾
+
+仅对编程语言和开发技术特别花心
+
+喜爱独立地去设计开发产品,擅长iOS和Unity
+
+最后差点忘说了:
+
+欢迎来到我的[个人主页](http://www.pengqian.win)
