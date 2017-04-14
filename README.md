@@ -1,1 +1,2 @@
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+This is my personal web.Edit from [leonids](https://github.com/renyuanz/leonids).
+
