@@ -12,10 +12,10 @@ permalink: /articles/
       <span class="post-date">
         {{ post.date | date: "%-d %b %Y" | upcase }}
       </span>
-      {% if post.categories.size > 0 %}
+      {% if post.tags.size > 0 %}
       •
-      {% for cat in post.categories %}
-        <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}">{{ cat }}</a>
+      {% for cat in post.tags %}
+        <a class="post-cat" >{{ cat }}</a>
         {% unless forloop.last %}
         <span>/</span>
         {% endunless %}
@@ -47,6 +47,7 @@ permalink: /articles/
 
     {% if post.image.feature %}
     <div class="post-image-feature">
+	 <a href="{{ site.url }}{{ post.url }}">
       <img src=
       {% if post.image.feature contains 'http' %}
       "{{ post.image.feature }}"
@@ -58,6 +59,7 @@ permalink: /articles/
       {% if post.image.credit %}
       <span class="image-credit">Photo Credit: <a href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></span>
       {% endif %}
+  	 </a>
     </div><!-- /.image-wrap -->
     {% endif %}
 
