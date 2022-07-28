@@ -8,7 +8,7 @@ import MitoLicence from '@/pages/licences/MitoLicence';
 Vue.use(Router);
 
 export default new Router({
-  mode: 'history',
+  // mode: 'history',
   routes: [
     {
       component: Home,
