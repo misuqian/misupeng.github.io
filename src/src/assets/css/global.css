@@ -1,0 +1,87 @@
+.columnCenter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rowCenter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.gap {
+    margin: 8px 0;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 8px 0;
+    color: #000;
+}
+
+.detail {
+    font-size: 20px;
+    margin: 6px 0;
+}
+
+.detail span {
+    font-weight: bold;
+    color: #CF4536;
+}
+
+.textArea {
+    text-align: left;
+    margin: 0 10px;
+    max-width: 650px;
+    width: calc(100% - 20px);
+}
+
+.btnArea {
+    margin: 8px 10px;
+    max-width: 650px;
+    width: calc(100% - 20px);
+}
+
+.message {
+    font-size: 18px;
+    margin: 4px 0;
+}
+
+.message span {
+    font-weight: bold;
+    color: #CF4536;
+}
+
+.logo {
+    width: 96px;
+    height: 96px;
+    margin-top: 16px;
+}
+
+.licenceText {
+    font-size: 16px;
+    margin: 4px 0;
+    white-space:pre-wrap;
+}
