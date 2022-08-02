@@ -16,7 +16,7 @@
     </div>
     <div class="gap" />
     <div class="textArea cloumn">
-      <div class="message">大学期间和工作后业余时间开发了一些<span>软件/游戏🎮。</span></div>
+      <div class="message">大学期间和工作后业余时间开发了一些<span>软件/游戏🎮</span>。</div>
       <div class="message"><span>软件基本都是免费工具类</span>，开发目的是为了满足我个人需求，公开后希望也能方便更多人🤩。</div>
       <div class="message">游戏一直是我的心结，我一定要好好靠它赚大钱😂</div>
     </div>

@@ -4,6 +4,7 @@ import Router from 'vue-router';
 import Home from '@/pages/Home';
 import Sponsor from '@/pages/Sponsorship';
 import MitoLicence from '@/pages/licences/MitoLicence';
+import MitoWelcome from '@/pages/welcome/MitoWelcome';
 
 Vue.use(Router);
 
@@ -25,6 +26,10 @@ export default new Router({
     {
       component: MitoLicence,
       path: '/mitoLicence',
+    },
+    {
+      component: MitoWelcome,
+      path: '/mitoWelcome',
     },
   ],
 });
