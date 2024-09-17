@@ -72,7 +72,15 @@ Let's Encrypt 证书有效期为 90 天，所以你需要设置一个 cron 任�
 sudo crontab -e
 添加以下行以确保证书每天检查一次并在需要时自动续订：
 
-0 3 * * * /usr/bin/certbot renew --quiet
+0 3 * * * /usr/bin/certbot renew --quiet && /bin/systemctl reload nginx
 这将在每天凌晨 3 点运行续订命令。
 
 按照这些步骤，你应该能够成功地为你的 Nginx 服务器设置 Let's Encrypt SSL 证书，并配置 HTTPS。记得在配置文件中替换为你自己的域名，并根据需要调整任何其他设置。
+
+### SSL续期
+sudo certbot renew
+
+sudo systemctl reload nginx
+
+
+

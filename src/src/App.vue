@@ -12,10 +12,7 @@
 
 export default {
   data() {
-      const beian = '';
-      if (window.location.host === 'pqgames.cn') {
-        beian = '粤ICP备2023150320号-2';
-      }
+      const beian = '粤ICP备2023150320号-2';
       return {
         now: new Date().getFullYear(),
         beian,
